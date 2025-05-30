@@ -57,7 +57,7 @@ Basic Visual Comparison of RF Technologies
 
 There are many technologies available for providing location data, each with their own niche. A brief survey of the available technologies is provided below.
 
-<div align="center">Table 1: Comparison of RF Location Technologies
+<div align="center">Table 1: Comparison of RF Location Technologies</div>
 
 | Type | Accuracy | Max Range | Cost | Infrastructure needs | Maturity |
 | --- | --- | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ There are many technologies available for providing location data, each with the
 | Cellular 5G/mmWave | Zone to Precision | 1 kilometer | High | Low | Evangelist |
 | LoRaWAN | Region to Zone Level | 1-5 km | Low | Low | Developed |
 | Proprietary | Zone to Precision | 100 meters (varies) | Varies | Varies | Developed | 
-</div>
+
 
 ### RF Technologies
 
@@ -81,14 +81,12 @@ There are many technologies available for providing location data, each with the
 - **Proprietary technologies:** Catch all for various proprietary technologies created by different RTLS companies throughout the years with varying accuracy and range. They do exist, and some are even useful.
 
 <div align="center">Table 2: Comparison of Other Location Technologies</div>
-<div align="center">
 | Infrared (IR) | Room Level | Line of Sight (LOS) | Low | High | Developed |
 | --- | --- | --- | --- | --- | --- |
 | Ultrasound | Sub-meter to precision | 10-20m | High | High | Growing |
 | Computer Vision/LiDAR | Sub-meter to precision | 100m | Moderate | Low/none | Developed |
 | GPS/GNSS | Region to precision | Global, LOS to sky | Low | Low/none | Developed |
 | Magnetic Fingerprint | Room level | Mapped region | Low | Low/none | Developed |
-</div>
 
 ### Other Technologies
 
@@ -116,8 +114,7 @@ After identifying the pains and gains alleviated by adding location data and pic
 
 
 <div align="center">Example IoT Cloud Architecture (provided by Amazon)</div>
-
-<div align="center">![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)</div>
+![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)
 
 - **Data Analysis and Presentation**
     - **Internal Analysis:** Real-time data can be analysed to provide quick insights into a product’s health and performance. While cloud monitoring services like Amazon Cloudwatch can provide alerts for backend problems, real-time analysis can alert teams to outages in the field, like a bad asset tag update or a power outage.
