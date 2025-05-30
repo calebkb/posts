@@ -81,6 +81,7 @@ There are many technologies available for providing location data, each with the
 - **Proprietary technologies:** Catch all for various proprietary technologies created by different RTLS companies throughout the years with varying accuracy and range. They do exist, and some are even useful.
 
 <div align="center">Table 2: Comparison of Other Location Technologies</div>
+
 | Infrared (IR) | Room Level | Line of Sight (LOS) | Low | High | Developed |
 | --- | --- | --- | --- | --- | --- |
 | Ultrasound | Sub-meter to precision | 10-20m | High | High | Growing |
@@ -114,6 +115,7 @@ After identifying the pains and gains alleviated by adding location data and pic
 
 
 <div align="center">Example IoT Cloud Architecture (provided by Amazon)</div>
+
 ![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)
 
 - **Data Analysis and Presentation**
