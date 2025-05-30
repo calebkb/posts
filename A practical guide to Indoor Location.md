@@ -10,7 +10,7 @@
 
 ## Introduction
 
-![image.png](A%20practical%20guide%20to%20Indoor%20Location/image.png)
+![image.png](A%20practical%20guide%20to%20Indoor%20Location%20images/image.png)
 
 Location data answers the question of “where” and provides an extra dimension to analyze many different processes, exposing new insights that can radically optimize existing processes and have long standing impact within an organization. However, there are many options and considerations to be made when integrating location data into a product, and when implemented improperly, adds bloated, overwhelming, siloed data and quickly becomes a costly waste of time, energy and resources. With the ever increasing number of real time location services (RTLS) solutions and companies in the market, it’s important to address some fundamental questions about your use case before you embark on your location journey.
 
@@ -53,7 +53,7 @@ Accuracy, purpose and budget are great first steps to identifying the optimal lo
 
 Basic Visual Comparison of RF Technologies
 
-![](A%20practical%20guide%20to%20Indoor%20Location/image18.jpg)
+![](A%20practical%20guide%20to%20Indoor%20Location%20images/image18.jpg)
 
 There are many technologies available for providing location data, each with their own niche. A brief survey of the available technologies is provided below.
 
@@ -114,7 +114,7 @@ After identifying the pains and gains alleviated by adding location data and pic
 
                                    Example IoT Cloud Architecture (provided by Amazon)
 
-![](A%20practical%20guide%20to%20Indoor%20Location/image15.png)
+![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)
 
 - **Data Analysis and Presentation**
     - **Internal Analysis:** Real-time data can be analysed to provide quick insights into a product’s health and performance. While cloud monitoring services like Amazon Cloudwatch can provide alerts for backend problems, real-time analysis can alert teams to outages in the field, like a bad asset tag update or a power outage.
