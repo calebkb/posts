@@ -57,7 +57,7 @@ Basic Visual Comparison of RF Technologies
 
 There are many technologies available for providing location data, each with their own niche. A brief survey of the available technologies is provided below.
 
-Table 1: Comparison of RF Location Technologies
+                                    **Table 1: Comparison of RF Location Technologies**
 
 | Type | Accuracy | Max Range | Cost | Infrastructure needs | Maturity |
 | --- | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Table 1: Comparison of RF Location Technologies
 - **LoRaWAN:** LoRaWAN will typically have less accuracy than most other systems, but is a cheaper alternative to cellular when a solution needs to communicate over large distances and outside of the typical operating location of the device.
 - **Proprietary technologies:** Catch all for various proprietary technologies created by different RTLS companies throughout the years with varying accuracy and range. They do exist, and some are even useful.
 
-                                    Table 2: Comparison of Other Location Technologies
+                                    **Table 2: Comparison of Other Location Technologies**
 
 | Infrared (IR) | Room Level | Line of Sight (LOS) | Low | High | Developed |
 | --- | --- | --- | --- | --- | --- |
@@ -112,7 +112,7 @@ After identifying the pains and gains alleviated by adding location data and pic
     - **Method:** Depending on the frequency of data delivery, there are multiple options for retrieving location data from your RTLS partner’s platform. APIs are generally useful for batch or event retrieval but can run into issues with rate or data limits, which can be common with location systems working with devices reporting frequently at scale. For real time applications, utilizing a lightweight message protocol like MQTT allows for subscription messaging, reducing API calls and creating a lightweight service for high throughput applications. CSV or JSON files can be used for longer term batch processes, where data is only collected infrequently and doesn’t require real-time analysis.
     - **Architecture:** Once extracted, data must be processed on the backend, either on the edge level with limited resources or by utilizing the cloud. This generally involves collecting the data, storing it in a database, and then making it accessible for analysis or presentation for users. For example, an MQTT solution hosted in AWS might have a message broker to host the channels, an AWS Kinesis stream for routing and real-time analysis of data, a function hosted in AWS Lambda to aggregate, condense or format data, and a Time-Series database (TSDB) like Amazon Timestream to allow for easier data querying when needed.
 
-                                   Example IoT Cloud Architecture (provided by Amazon)
+                                    **Example IoT Cloud Architecture (provided by Amazon)**
 
 ![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)
 
