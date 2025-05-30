@@ -80,8 +80,8 @@ There are many technologies available for providing location data, each with the
 - **LoRaWAN:** LoRaWAN will typically have less accuracy than most other systems, but is a cheaper alternative to cellular when a solution needs to communicate over large distances and outside of the typical operating location of the device.
 - **Proprietary technologies:** Catch all for various proprietary technologies created by different RTLS companies throughout the years with varying accuracy and range. They do exist, and some are even useful.
 
-<div align="center">Table 2: Comparison of Other Location Technologies
-
+<div align="center">Table 2: Comparison of Other Location Technologies</div>
+<div align="center">
 | Infrared (IR) | Room Level | Line of Sight (LOS) | Low | High | Developed |
 | --- | --- | --- | --- | --- | --- |
 | Ultrasound | Sub-meter to precision | 10-20m | High | High | Growing |
@@ -115,9 +115,9 @@ After identifying the pains and gains alleviated by adding location data and pic
     - **Architecture:** Once extracted, data must be processed on the backend, either on the edge level with limited resources or by utilizing the cloud. This generally involves collecting the data, storing it in a database, and then making it accessible for analysis or presentation for users. For example, an MQTT solution hosted in AWS might have a message broker to host the channels, an AWS Kinesis stream for routing and real-time analysis of data, a function hosted in AWS Lambda to aggregate, condense or format data, and a Time-Series database (TSDB) like Amazon Timestream to allow for easier data querying when needed.
 
 
-<div align="center">Example IoT Cloud Architecture (provided by Amazon)
+<div align="center">Example IoT Cloud Architecture (provided by Amazon)</div>
 
-![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)</div>
+<div align="center">![](A%20practical%20guide%20to%20Indoor%20Location%20images/image15.png)</div>
 
 - **Data Analysis and Presentation**
     - **Internal Analysis:** Real-time data can be analysed to provide quick insights into a product’s health and performance. While cloud monitoring services like Amazon Cloudwatch can provide alerts for backend problems, real-time analysis can alert teams to outages in the field, like a bad asset tag update or a power outage.
