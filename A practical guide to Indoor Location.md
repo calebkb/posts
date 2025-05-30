@@ -67,7 +67,8 @@ There are many technologies available for providing location data, each with the
 | Passive RFID/NFC | Zone to Room Level | Proximity | Low | Moderate | Developed |
 | Cellular 5G/mmWave | Zone to Precision | 1 kilometer | High | Low | Evangelist |
 | LoRaWAN | Region to Zone Level | 1-5 km | Low | Low | Developed |
-| Proprietary | Zone to Precision | 100 meters (varies) | Varies | Varies | Developed | </div>
+| Proprietary | Zone to Precision | 100 meters (varies) | Varies | Varies | Developed | 
+</div>
 
 ### RF Technologies
 
@@ -86,7 +87,8 @@ There are many technologies available for providing location data, each with the
 | Ultrasound | Sub-meter to precision | 10-20m | High | High | Growing |
 | Computer Vision/LiDAR | Sub-meter to precision | 100m | Moderate | Low/none | Developed |
 | GPS/GNSS | Region to precision | Global, LOS to sky | Low | Low/none | Developed |
-| Magnetic Fingerprint | Room level | Mapped region | Low | Low/none | Developed |</div>
+| Magnetic Fingerprint | Room level | Mapped region | Low | Low/none | Developed |
+</div>
 
 ### Other Technologies
 
